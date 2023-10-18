@@ -11,7 +11,7 @@ import c8 from "../../../assets/images/c8.png";
 const Services = () => {
   return (
     <div className="lg:p-20 p-5 lg:flex md:block">
-      <div className="lg:w-[40%]">
+      <div className="lg:w-[40%] lg:mr-20 mr-10 mb-10">
         <div className="lg:text-5xl text-2xl font-semibold mb-4 text-black">
           Trust by over 25000+ clients
         </div>
