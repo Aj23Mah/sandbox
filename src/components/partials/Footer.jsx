@@ -3,10 +3,11 @@ import { FaRegCopyright } from "react-icons/fa";
 import {BsYoutube, BsTwitter, BsInstagram} from "react-icons/bs"
 import {FaFacebookF} from "react-icons/fa"
 import {BiBasketball} from "react-icons/bi"
+import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
-    <footer className="lg:px-20 px-5 bg-primary text-black-dark">
+    <footer className="lg:px-20 px-5 bg-white text-black-dark">
       <div className="py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-2 border-b border-black-light">
         <div className="mb-5 col-span-2">
           <div className="text-3xl font-bold mb-5">Join the Community</div>
@@ -15,9 +16,9 @@ const Footer = () => {
             clients. Join them by using our services and grow your business.
           </div>
           <div>
-            <button className="bg-primary-dark text-white px-7 py-3 rounded-3xl text-xl font-semibold">
+            <motion.button whileHover={{ scale: 1.1 }} className="bg-primary-dark text-white px-7 py-3 rounded-3xl text-xl font-semibold">
               Join Us
-            </button>
+            </motion.button>
           </div>
         </div>
 

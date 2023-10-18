@@ -1,5 +1,6 @@
 import React from "react";
 import co3 from "../../../assets/images/co3.png"
+import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
@@ -12,8 +13,8 @@ const Hero = () => {
             with customers.
           </div>
           <div className="flex justify-center lg:justify-start">
-            <button className="bg-primary-dark text-white font-medium lg:px-5 px-2 lg:py-3 py-2 lg:text-lg text-sm rounded-3xl mr-4">Explore Now</button>
-            <button className="border border-primary-dark text-primary-dark font-medium lg:px-5 px-2 lg:py-3 py-2 lg:text-lg text-sm rounded-3xl hover:bg-primary-dark hover:text-white-light">Contact Us</button>
+            <motion.button  whileHover={{ scale: 1.1 }} className="bg-primary-dark text-white font-medium lg:px-5 px-2 lg:py-3 py-2 lg:text-lg text-sm rounded-3xl mr-4">Explore Now</motion.button>
+            <motion.button  whileHover={{ scale: 1.1 }} className="border border-primary-dark text-primary-dark font-medium lg:px-5 px-2 lg:py-3 py-2 lg:text-lg text-sm rounded-3xl hover:bg-primary-dark hover:text-white-light">Contact Us</motion.button>
           </div>
         </div>
         <div className="lg:w-1/2">

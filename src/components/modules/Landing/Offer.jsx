@@ -1,6 +1,7 @@
 import React from "react";
 import { AiFillCheckCircle } from "react-icons/ai";
 import { Switch } from "@material-tailwind/react";
+import { motion } from "framer-motion";
 
 const Offer = () => {
   return (
@@ -15,9 +16,9 @@ const Offer = () => {
             card required!
           </div>
           <div>
-            <button className="bg-primary-dark text-white font-medium lg:px-5 px-2 lg:py-3 py-2 lg:text-lg text-sm rounded-3xl mr-4">
+            <motion.button whileHover={{ scale: 1.1 }}  className="bg-primary-dark text-white font-medium lg:px-5 px-2 lg:py-3 py-2 lg:text-lg text-sm rounded-3xl mr-4">
               See All Prices
-            </button>
+            </motion.button>
           </div>
         </div>
 
@@ -86,9 +87,9 @@ const Offer = () => {
                 <div>Support</div>
               </div>
               <div className="my-8">
-                <button className="bg-primary-dark text-white font-medium lg:px-5 px-2 lg:py-3 py-2 lg:text-lg text-sm rounded-3xl mr-4">
+                <motion.button whileHover={{ scale: 1.1 }} className="bg-primary-dark text-white font-medium lg:px-5 px-2 lg:py-3 py-2 lg:text-lg text-sm rounded-3xl mr-4">
                   Choose Plan
-                </button>
+                </motion.button>
               </div>
             </div>
 
@@ -136,9 +137,9 @@ const Offer = () => {
                 <div>Support</div>
               </div>
               <div className="my-8">
-                <button className="bg-primary-dark text-white font-medium lg:px-5 px-2 lg:py-3 py-2 lg:text-lg text-sm rounded-3xl mr-4">
+                <motion.button whileHover={{ scale: 1.1 }} className="bg-primary-dark text-white font-medium lg:px-5 px-2 lg:py-3 py-2 lg:text-lg text-sm rounded-3xl mr-4">
                   Choose Plan
-                </button>
+                </motion.button>
               </div>
             </div>
           </div>

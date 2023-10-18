@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { AiOutlineSearch, AiOutlineClose } from "react-icons/ai";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { motion } from "framer-motion";
 
 const Nav = () => {
   const navItems = [
@@ -46,9 +47,9 @@ const Nav = () => {
             <AiOutlineSearch size={32} />
           </div>
           <div className="md:ml-2 text-center">
-            <button className="bg-primary-dark text-white px-6 py-2 rounded-3xl text-xl">
+            <motion.button whileHover={{ scale: 0.9 }} className="bg-primary-dark text-white px-6 py-2 rounded-3xl text-xl">
               Sign In
-            </button>
+            </motion.button>
           </div>
           
         </div>
