@@ -3,12 +3,14 @@ import { AiOutlineSearch, AiOutlineClose } from "react-icons/ai";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { motion } from "framer-motion";
 
+import { Link } from "react-router-dom";
+
 const Nav = () => {
   const navItems = [
-    { label: "Home", path: "/home" },
+    { label: "Home", path: "/" },
     { label: "About", path: "/about" },
     { label: "Contact", path: "/contact" },
-    { label: "Services", path: "/services" },
+    { label: "Service", path: "/service" },
   ];
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -38,7 +40,7 @@ const Nav = () => {
               className="md:ml-8 text-xl font-semibold md:my-0 my-7"
             >
               <div className="text-black-dark hover:text-black-light duration-500 text-center">
-                {v.label}
+                <Link to={v.path}>{v.label}</Link>
               </div>
             </div>
           ))}

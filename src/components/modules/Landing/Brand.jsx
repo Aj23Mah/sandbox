@@ -8,7 +8,7 @@ import c6 from "../../../assets/images/c6.png";
 import c7 from "../../../assets/images/c7.png";
 import c8 from "../../../assets/images/c8.png";
 
-const Services = () => {
+const Brand = () => {
   return (
     <div className="lg:p-20 p-5 lg:flex md:block">
       <div className="lg:w-[40%] lg:mr-20 mr-10 mb-10">
@@ -49,4 +49,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Brand;

@@ -1,15 +1,17 @@
 import React from "react";
 import about12 from "../../../assets/images/about12.jpg";
 
+import { Slider } from "@material-tailwind/react";
+
 const Support = () => {
   return (
     <div className="lg:p-20 p-5">
-      <div className="border grid lg:grid-cols-2 grid-cols-1 place-items-center mb-6">
+      <div className="grid lg:grid-cols-2 grid-cols-1 place-items-center mb-6">
         <div className="lg:shadow-[38px_38px_12px_2px_#c9f5f8] mb-6">
           {/* <video src={about12}></video> */}
           <img src={about12} alt="" />
         </div>
-        <div className="m-auto border w-[60%] text-black">
+        <div className="m-auto w-[60%] text-black">
           <div className="lg:text-5xl font-bold mb-4">
             Sandbox Brings Awesomeness
           </div>
@@ -22,8 +24,9 @@ const Support = () => {
               <div>Marketing</div>
               <div>100 %</div>
             </div>
-            <div>
-              <input className="min-w-full" type="range" />
+
+            <div className="flex w-full flex-col gap-8 mb-4">
+              <Slider className="text-blue" defaultValue={100} />
             </div>
           </div>
           <div>
@@ -31,8 +34,9 @@ const Support = () => {
               <div>Strategy</div>
               <div>80 %</div>
             </div>
-            <div>
-              <input className="min-w-full" type="range" />
+
+            <div className="flex w-full flex-col gap-8 mb-4">
+              <Slider className="text-blue" defaultValue={80} />
             </div>
           </div>
           <div>
@@ -40,8 +44,9 @@ const Support = () => {
               <div>Development</div>
               <div>85 %</div>
             </div>
-            <div>
-              <input className="min-w-full" type="range" />
+
+            <div className="flex w-full flex-col gap-8 mb-4">
+              <Slider className="text-blue" defaultValue={85} />
             </div>
           </div>
         </div>

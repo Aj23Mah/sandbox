@@ -7,7 +7,9 @@ import target from "../../../assets/images/target.png";
 import about10 from "../../../assets/images/about10.jpg";
 import about11 from "../../../assets/images/about11.jpg";
 
-const About = () => {
+
+
+const Details = () => {
   return (
     <div className="lg:p-20 p-5">
       <div className="flex flex-wrap justify-center items-center lg:mb-20 mb-5">
@@ -131,4 +133,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Details;
