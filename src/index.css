@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .card {
+    @apply m-10 rounded-lg bg-white px-6 py-8 shadow-xl ring-1 ring-blue-gray-600 dark:bg-black-dark;
+  }
+  .special-button {
+    @apply bg-gradient-to-r from-deep-purple-400 to-light-blue-400 hover:from-deep-purple-600
+        hover:to-light-blue-600 focus:outline-none focus:ring-deep-purple-300
+        active:bg-blue-gray-700 px-6 py-3 rounded-lg text-white font-semibold
+        shadow-md transition duration-300 ease-in-out transform hover:scale-105;
+  }
+}

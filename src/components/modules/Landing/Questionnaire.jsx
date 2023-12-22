@@ -16,10 +16,10 @@ const Questionnaire = () => {
         <div class="w-full sm:w-1/2 pl-6">
           <div className="cursor-pointer text-gray">
             <details className="mb-2">
-              <summary className="hover:text-primary-dark font-bold lg:text-base mb-4">
+              <summary className="hover:text-primary-dark font-medium lg:text-xl mb-4">
                 How do i get my subscription receipt?
               </summary>
-              <p className="pl-4 lg:text-base mb-4">
+              <p className="pl-4 lg:text-xl mb-4">
                 Fusce dapibus, tellus ac cursus commodo, tortor mauris
                 condimentum nibh, ut fermentum massa justo sit amet risus. Cras
                 mattis consectetur purus sit amet fermentum. Praesent commodo
@@ -27,10 +27,10 @@ const Questionnaire = () => {
               </p>
             </details>
             <details className="mb-2">
-              <summary className="hover:text-primary-dark font-bold lg:text-base mb-4">
+              <summary className="hover:text-primary-dark font-medium lg:text-xl mb-4">
                 Are there any discounts for people in need?
               </summary>
-              <p className="pl-4 lg:text-base mb-4">
+              <p className="pl-4 lg:text-xl mb-4">
                 Fusce dapibus, tellus ac cursus commodo, tortor mauris
                 condimentum nibh, ut fermentum massa justo sit amet risus. Cras
                 mattis consectetur purus sit amet fermentum. Praesent commodo
@@ -38,10 +38,10 @@ const Questionnaire = () => {
               </p>
             </details>
             <details className="mb-2">
-              <summary className="hover:text-primary-dark font-bold lg:text-base mb-4">
+              <summary className="hover:text-primary-dark font-medium lg:text-xl mb-4">
                 Do you offer a free trial edit?
               </summary>
-              <p className="pl-4 lg:text-base mb-4">
+              <p className="pl-4 lg:text-xl mb-4">
                 Fusce dapibus, tellus ac cursus commodo, tortor mauris
                 condimentum nibh, ut fermentum massa justo sit amet risus. Cras
                 mattis consectetur purus sit amet fermentum. Praesent commodo
@@ -49,10 +49,10 @@ const Questionnaire = () => {
               </p>
             </details>
             <details className="mb-2">
-              <summary className="hover:text-primary-dark font-bold lg:text-base mb-4">
+              <summary className="hover:text-primary-dark font-medium lg:text-xl mb-4">
                 How do I reset my Account password?
               </summary>
-              <p className="pl-4 lg:text-base mb-4">
+              <p className="pl-4 lg:text-xl mb-4">
                 Fusce dapibus, tellus ac cursus commodo, tortor mauris
                 condimentum nibh, ut fermentum massa justo sit amet risus. Cras
                 mattis consectetur purus sit amet fermentum. Praesent commodo

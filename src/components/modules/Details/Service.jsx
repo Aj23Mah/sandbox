@@ -4,8 +4,8 @@ import CommonSection from '../../common/CommonSection'
 
 const Service = () => {
   return (
-    <div className='lg:p-20 p-5'>
-      <CommonSection />
+    <div>
+      <CommonSection title="service" />
       <div>Service</div>
     </div>
   )

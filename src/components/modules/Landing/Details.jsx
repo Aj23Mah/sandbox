@@ -12,11 +12,13 @@ import about11 from "../../../assets/images/about11.jpg";
 const Details = () => {
   return (
     <div className="lg:p-20 p-5">
-      <div className="flex flex-wrap justify-center items-center lg:mb-20 mb-5">
-        <div className="w-full md:w-1/2 mb-6 md:mb-0">
+      <div className="flex md:flex-row flex-col justify-center items-center gap-4 lg:mb-20 mb-5">
+
+        <div className="w-full mb-6 md:mb-0">
           <img className="rounded-lg" src={about10} alt="" />
         </div>
-        <div className="w-full md:w-1/2 py-8">
+
+        <div className="w-full py-8">
           <div className="text-black">
             <div className="text-3xl md:text-4xl font-semibold mb-4">
               Who Are We?
@@ -32,6 +34,7 @@ const Details = () => {
               nisl consectetur et.
             </div>
           </div>
+
           <div className="flex flex-col md:flex-row">
             <div className="flex items-center mb-4 md:mb-0">
               <div className="mr-4">
@@ -59,11 +62,11 @@ const Details = () => {
         </div>
       </div>
 
-      <div className="flex flex-wrap justify-center items-center lg:mb-20 mb-5">
-        <div className="w-full md:w-1/2 mb-6 md:mb-0">
+      <div className="flex md:flex-row flex-col gap-4 justify-center items-center lg:mb-20 mb-5">
+        <div className="w-full mb-6 md:mb-0">
           <img className="rounded-lg" src={about11} alt="" />
         </div>
-        <div className="w-full md:w-1/2 py-8">
+        <div className="w-full py-8">
           <div className="text-black">
             <div className="text-3xl md:text-4xl font-semibold mb-4">
               What We Do?
