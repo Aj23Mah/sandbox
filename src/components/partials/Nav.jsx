@@ -45,31 +45,21 @@ const Nav = () => {
             <AiOutlineSearch size={32} />
           </div>
           <div className="md:ml-2 text-center">
-            {/* <button className="special-button">
-              Sign In
-            </button> */}
-            {/* <motion.button
-              whileHover={{ scale: 0.9 }}
-              className="bg-gradient-to-r from-purple to-pink px-8 py-2 rounded-3xl text-white text-xl"
-            >
-              Sign In
-            </motion.button> */}
-            {/* <motion.button whileHover={{ scale: 0.9 }} className="bg-primary-dark text-white px-6 py-2 rounded-3xl text-xl">
-              Sign In
-            </motion.button> */}
-            {isMenuOpen ? (
-              <button className="text-black px-6 py-2 text-2xl font-bold">
-                Sign In
-              </button>
-            ) : (
-              <motion.img
-                src={userUrl}
-                whileHover={{ scale: 0.9 }}
-                width="54px"
-                className="mx-4"
-                alt=""
-              />
-            )}
+            <Link to="/sign-in">
+              {isMenuOpen ? (
+                <button className="text-black px-6 py-2 text-2xl font-bold">
+                  Sign In
+                </button>
+              ) : (
+                <motion.img
+                  src={userUrl}
+                  whileHover={{ scale: 0.9 }}
+                  width="54px"
+                  className="mx-4"
+                  alt=""
+                />
+              )}
+            </Link>
           </div>
         </div>
       </div>
